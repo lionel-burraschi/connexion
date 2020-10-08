@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+  <link rel="stylesheet" href="connexion.css">
+  <meta charset="UTF-8">
+  <title>inscription</title>
+</head>
+<body>
+<header>
+    <div id="navbar">
+        <ul>
+            <li><a href="connexion.html">Connexion</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="motdepasse.html">Mot de passe oublié</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <h3>Veuillez remplir le formulaire ci-dessous</h3>
+    <form action="connexion.html" method="post">
+    <div class="formleft">
+        <div>
+            <label for="name">Login * :</label><br>
+            <input type="text" id="name" name="user_name" required>
+        </div>
+        <div>
+            <label for="name">Nom * :</label><br>
+            <input type="text" id="name" name="secondary-name">
+        </div>
+        <div>
+            <label for="name">Prénom * :</label><br>
+            <input type="text" id="name" name="first-name">
+        </div>
+        <div>
+        <label for="start">Date de naissance * :</label><br>
+        <input type="date" id="start" name="trip-start"
+                value="aaaa-mm-jj"
+                min="1900-01-01" max="2020-12-31" required>
+        </div>
+        <div>
+            <label for="userPassword">Mot de passe * :</label><br>
+            <input id="userPassword" type="password" required>
+        </div>
+        <div>
+            <label for="userPassword">Ressaisissez votre mot de passe :</label><br>
+            <input id="userPassword" type="password" * required>
+        </div>
+        <input type="submit" value="Envoyer">
+        </div>
+    </div>
+
+    <div class="formright">
+        <div>
+            <label for="mail">E-mail * :</label><br>
+            <input type="email" id="mail" name="user_mail" required>
+        </div>
+        <label for="phone">Téléphone :</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <small>Format: +33(0)123456789</small>
+        <div>
+            <label for="msg">Présentez-vous :</label><br>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div>
+            <label for="sexe">Sexe * :</label><br>
+            <select name="sexe" size="1" required>
+                <option valeur="Homme">Homme</option>
+                <option valeur="Femme">Femme</option>
+            </select>
+        </div>
+        <div>
+            <label for="sexe">Niveau d'étude * :</label><br>
+            <select name="sexe" size="1" required>
+                <option valeur="Aucun">Aucun</option>
+                <option valeur="Cap/Bep">Cap/Bep</option>
+                <option valeur="Bac">Bac</option>
+                <option valeur="Bac">Bac + 2</option>
+                <option valeur="Bac">Bac + 3</option>
+                <option valeur="Bac">Bac + 4</option>
+                <option valeur="Bac">Bac + 5</option>
+                <option valeur="Bac">Bac + 8</option>
+            </select>
+        </div>
+        <div>
+            <label for="sexe">Hobbie(s) :</label><br>
+            <select name="sexe" size="3" multiple>
+                <option valeur="Pêche">Pêche</option>
+                <option valeur="Lecture">Lecture</option>
+                <option valeur="Sport">Sport</option>
+                <option valeur="Musique">Musique</option>
+                <option valeur="Danse">Danse</option>
+                <option valeur="Natation">Natation</option>
+                <option valeur="Jeux video">Jeux video</option>
+            </select>
+        </div>
+    </div>
+    </form>
+</main>
+<footer>
+    <div id="footerid">
+        <div class="socialnetwork">
+            <a href="https://www.facebook.com/"><img src="facebook.png" alt="Logo Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="instagram.png" alt="Logo Facebook"></a>
+            <a href="https://www.twitter.com/"><img src="twitter.png" alt="Logo Facebook"></a>
+            <a href="https://www.linkedin.com/"><img src="linkedin.png" alt="Logo Facebook"></a>
+        </div>
+        <div class="copyright">
+            <p>COPYRIGHT © FRANCE tout droits réservés.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

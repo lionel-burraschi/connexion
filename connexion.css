@@ -1,0 +1,91 @@
+/* ---------------connexion--------------- */
+body {
+    text-align: center;
+    background-image: url("background.png");
+}
+
+main {
+    padding: none;
+	margin: 0;
+    font-family: trebuchet, sans-serif;
+    background-color: white;
+    text-align: left;
+    border: solid 1px;
+    padding: 30px;
+    margin-left: 20vw;
+    min-width: 55vw;
+    max-width: 55vw
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .formright {
+    background-color: rgb(255, 0, 242);
+}
+
+.formleft {
+    background-color: rgb(255, 0, 212);
+} */
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    padding: 2vh 0;
+    list-style: none;
+    background-color: violet;
+}
+
+#navbar a {
+    font-family: trebuchet, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+
+#navbar ul li a:hover {
+    color: #ffffff;
+}
+
+label {
+    display: inline-block;
+    font: .9rem 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+
+input{width: 15vw;}
+
+
+#footerid {
+	background-color: #292C2E;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	width: 100%;
+	align-items: center;
+    padding: 1vh 0;
+    color: white;
+}
+    
+.socialnetwork img {
+    max-width: 60px;
+    border-radius: 2px;
+    min-width: 60px;
+}
+    
+.socialnetwork img:hover {
+    opacity: 0.8;
+}
+/* ---------------inscription--------------- */
+
+/* ---------------mot de passe oublié--------------- */
